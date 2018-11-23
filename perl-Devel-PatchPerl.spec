@@ -103,9 +103,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/Devel/PatchPerl.pm
-/usr/lib/perl5/vendor_perl/5.26.1/Devel/PatchPerl/Hints.pm
-/usr/lib/perl5/vendor_perl/5.26.1/Devel/PatchPerl/Plugin.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Devel/PatchPerl.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Devel/PatchPerl/Hints.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Devel/PatchPerl/Plugin.pm
 
 %files bin
 %defattr(-,root,root,-)
