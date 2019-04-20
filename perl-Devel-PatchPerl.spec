@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-PatchPerl
 Version  : 1.56
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.56.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.56.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libd/libdevel-patchperl-perl/libdevel-patchperl-perl_1.52-1.debian.tar.xz
