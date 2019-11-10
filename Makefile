@@ -1,5 +1,5 @@
 PKG_NAME := perl-Devel-PatchPerl
-URL = https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.70.tar.gz
+URL = https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.74.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
