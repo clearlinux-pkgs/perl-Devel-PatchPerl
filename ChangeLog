@@ -3,6 +3,25 @@ Changes from 2014-11-11 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
+version 1.76 at 2019-11-10 21:56:25 +0000
+-----------------------------------------
+
+  Change: c6c3401c1ff06069158e500666a15d5b917c5333
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2019-11-10 21:56:25 +0000
+
+    Release engineering for 1.76 
+
+  Change: fe21ec31068762a266065d97d58049024d324712
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2019-11-10 21:52:33 +0000
+
+    Fix issues with patching utils/h2ph.PL on v5.8.x
+
+    Whilst I was at it got it working for the v5.9.x series and converted
+    patch storage to base64 
+
+-----------------------------------------
 version 1.74 at 2019-11-10 19:12:13 +0000
 -----------------------------------------
 
