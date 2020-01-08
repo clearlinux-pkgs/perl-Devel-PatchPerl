@@ -4,10 +4,10 @@
 #
 Name     : perl-Devel-PatchPerl
 Version  : 1.80
-Release  : 23
+Release  : 24
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.80.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.80.tar.gz
-Summary  : Patch perl source a la Devel::PPPort's buildperl.pl
+Summary  : "Patch perl source a la Devel::PPPort's buildperl.pl"
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Devel-PatchPerl-bin = %{version}-%{release}
@@ -37,7 +37,6 @@ Summary: dev components for the perl-Devel-PatchPerl package.
 Group: Development
 Requires: perl-Devel-PatchPerl-bin = %{version}-%{release}
 Provides: perl-Devel-PatchPerl-devel = %{version}-%{release}
-Requires: perl-Devel-PatchPerl = %{version}-%{release}
 Requires: perl-Devel-PatchPerl = %{version}-%{release}
 
 %description dev
@@ -130,6 +129,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/Devel/PatchPerl.pm
-/usr/lib/perl5/vendor_perl/5.28.2/Devel/PatchPerl/Hints.pm
-/usr/lib/perl5/vendor_perl/5.28.2/Devel/PatchPerl/Plugin.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Devel/PatchPerl.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Devel/PatchPerl/Hints.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Devel/PatchPerl/Plugin.pm
