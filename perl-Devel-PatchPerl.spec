@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-PatchPerl
 Version  : 1.90
-Release  : 28
+Release  : 29
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.90.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.90.tar.gz
 Summary  : "Patch perl source a la Devel::PPPort's buildperl.pl"
@@ -129,6 +129,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Devel/PatchPerl.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Devel/PatchPerl/Hints.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Devel/PatchPerl/Plugin.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Devel/PatchPerl.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Devel/PatchPerl/Hints.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Devel/PatchPerl/Plugin.pm
