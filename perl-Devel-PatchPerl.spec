@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-PatchPerl
 Version  : 1.98
-Release  : 32
+Release  : 33
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.98.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.98.tar.gz
 Summary  : "Patch perl source a la Devel::PPPort's buildperl.pl"
