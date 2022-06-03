@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-PatchPerl
 Version  : 2.08
-Release  : 45
+Release  : 46
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-2.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-2.08.tar.gz
 Summary  : "Patch perl source a la Devel::PPPort's buildperl.pl"
@@ -129,6 +129,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Devel/PatchPerl.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Devel/PatchPerl/Hints.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Devel/PatchPerl/Plugin.pm
+/usr/lib/perl5/*
