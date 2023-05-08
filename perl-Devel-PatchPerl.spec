@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-PatchPerl
 Version  : 2.08
-Release  : 46
+Release  : 47
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-2.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Devel-PatchPerl-2.08.tar.gz
 Summary  : "Patch perl source a la Devel::PPPort's buildperl.pl"
